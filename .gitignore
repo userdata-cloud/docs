@@ -1,0 +1,14 @@
+*
+!.gitignore
+!.editorconfig
+!README.md
+!LICENSE.txt
+!package.json
+!pnpm-lock.yaml
+!antora-playbook.yml
+!.github/
+!.github/**
+!docs/
+!docs/**
+!supplemental-ui/
+!supplemental-ui/**

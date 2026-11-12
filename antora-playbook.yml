@@ -1,0 +1,49 @@
+site:
+  title: userdata.cloud Docs
+  url: https://userdata-cloud.github.io/docs
+  start_page: home::index.adoc
+  robots: |
+    User-agent: *
+    Allow: /
+    Sitemap: https://userdata-cloud.github.io/docs/sitemap.xml
+  keys:
+    header_logo: logo.svg
+    site_home_url: https://userdata-cloud.github.io/
+    site_home_label: userdata.cloud home
+    schema_org_name: userdata.cloud
+    schema_org_url: https://userdata-cloud.github.io/
+    header_doc_title: userdata.cloud Docs
+urls:
+  html_extension_style: indexify
+antora:
+  extensions:
+    - require: '@antora-supplemental/facto-stack'
+      profile: hub
+      relatedDocs:
+        sites: none
+      siteNavTree:
+        enabled: true
+        include:
+          - home
+          - vault
+        order:
+          - home
+          - vault
+asciidoc:
+  attributes:
+    stem: latexmath
+content:
+  sources:
+    - url: .
+      branches: HEAD
+      start_path: docs
+    - url: https://github.com/userdata-cloud/userdata-cloud.git
+      branches: HEAD
+      start_path: docs
+ui:
+  bundle:
+    url: https://github.com/antora-supplemental/valentus-theme/releases/download/v4.3.3/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+output:
+  dir: ./build/site

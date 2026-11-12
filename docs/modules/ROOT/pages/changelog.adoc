@@ -1,0 +1,24 @@
+= Changelog
+:page-audience: Maintainers
+:page-usage-context: Timeline on the docs hub
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-11-12
+
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience role:: {page-audience}
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]
+
+== 2026-11-12
+
+The public docs hub opens with a portal and the vault component.
+
+=== Hub and vault component
+* This repository publishes the organization docs with Antora.
+* The vault repository contributes the `vault` component, including the page for what to build first.

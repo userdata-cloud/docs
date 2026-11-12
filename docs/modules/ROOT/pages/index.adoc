@@ -1,0 +1,22 @@
+= Userdata Cloud portal
+:navtitle: Overview
+:description: Public docs for userdata.cloud, the protocol and apps for records that outlive the issuer.
+:page-audience: Maintainers
+:page-usage-context: Hub portal
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-11-12
+:page-context-surface: component-home
+
+Records that outlive the company that issued them.
+
+The public site is https://userdata-cloud.github.io/[userdata-cloud.github.io]. The vault app is https://personalrecordvault.netlify.app/[personalrecordvault.netlify.app]. Product pages for that app are the vault component on this hub.
+
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

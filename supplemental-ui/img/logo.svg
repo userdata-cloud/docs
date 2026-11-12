@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="5 7.75 54 54" width="128" height="128" role="img" aria-label="userdata.cloud">
+  <defs>
+    <mask id="gap" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <rect x="-12.25" y="-30.25" width="24.5" height="38" rx="4.25" transform="translate(32 41) rotate(-12)" fill="#000"/>
+    </mask>
+    <clipPath id="above-slit">
+      <rect x="0" y="0" width="64" height="41"/>
+    </clipPath>
+  </defs>
+  <path fill="#1B3A4B" fill-rule="evenodd" mask="url(#gap)" d="M13 29H51A7 7 0 0 1 58 36V51A7 7 0 0 1 51 58H13A7 7 0 0 1 6 51V36A7 7 0 0 1 13 29Z M15.5 38.5H48.5A2.5 2.5 0 0 1 48.5 43.5H15.5A2.5 2.5 0 0 1 15.5 38.5Z"/>
+  <g clip-path="url(#above-slit)">
+    <g transform="translate(32 41) rotate(-12)">
+      <rect x="-10" y="-28" width="20" height="34" rx="2.5" fill="#1F7A6A"/>
+      <g fill="#F7F4EE">
+        <rect x="-6.25" y="-23.5" width="12.5" height="3.5" rx="1.75"/>
+        <rect x="-6.25" y="-16.5" width="8" height="3.5" rx="1.75"/>
+        <circle cx="2.75" cy="-6.5" r="3.25"/>
+      </g>
+    </g>
+  </g>
+</svg>

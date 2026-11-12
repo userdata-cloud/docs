@@ -1,0 +1,13 @@
+{
+  "name": "@userdata-cloud/docs",
+  "private": true,
+  "description": "Public docs hub for userdata.cloud.",
+  "packageManager": "pnpm@9.15.4",
+  "scripts": {
+    "build": "antora --fetch antora-playbook.yml"
+  },
+  "devDependencies": {
+    "@antora-supplemental/facto-stack": "github:antora-supplemental/facto-stack#v0.5.1",
+    "antora": "^3.1.14"
+  }
+}
