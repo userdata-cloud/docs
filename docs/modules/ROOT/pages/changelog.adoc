@@ -22,3 +22,6 @@ The public docs hub opens with a portal and the vault component.
 === Hub and vault component
 * This repository publishes the organization docs with Antora.
 * The vault repository contributes the `vault` component, including the page for what to build first.
+
+=== Docs hostname
+* The hub is served at https://docs.userdata.cloud/. The DNS record is not proxied, so GitHub Pages can issue the certificate.

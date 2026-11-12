@@ -10,7 +10,7 @@
 
 Records that outlive the company that issued them.
 
-The public site is https://userdata-cloud.github.io/[userdata-cloud.github.io]. The vault app is https://userdata-cloud.netlify.app/[userdata-cloud.netlify.app]. Product pages for that app are the vault component on this hub.
+The public site is https://userdata.cloud/[userdata.cloud]. The vault app is https://userdata-cloud.netlify.app/[userdata-cloud.netlify.app]. Product pages for that app are the vault component on this hub.
 
 ifndef::page-context-active[]
 [.page-context.page-context-footer]

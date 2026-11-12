@@ -10,7 +10,7 @@
 
 Public documentation for the organization.
 
-[Explore the docs »](https://userdata-cloud.github.io/docs/home/)
+[Explore the docs »](https://docs.userdata.cloud/home/)
 
 </div>
 

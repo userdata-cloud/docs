@@ -1,17 +1,17 @@
 site:
   title: userdata.cloud Docs
-  url: https://userdata-cloud.github.io/docs
+  url: https://docs.userdata.cloud
   start_page: home::index.adoc
   robots: |
     User-agent: *
     Allow: /
-    Sitemap: https://userdata-cloud.github.io/docs/sitemap.xml
+    Sitemap: https://docs.userdata.cloud/sitemap.xml
   keys:
     header_logo: logo.svg
-    site_home_url: https://userdata-cloud.github.io/
+    site_home_url: https://userdata.cloud/
     site_home_label: userdata.cloud home
     schema_org_name: userdata.cloud
-    schema_org_url: https://userdata-cloud.github.io/
+    schema_org_url: https://userdata.cloud/
     header_doc_title: userdata.cloud Docs
 urls:
   html_extension_style: indexify
