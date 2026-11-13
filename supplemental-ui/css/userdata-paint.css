@@ -1,0 +1,38 @@
+/* userdata.cloud paint. Loaded after Valentus so the site tokens win.
+   Light and dark match apps/site: slate canvas, violet accent, Sora. */
+
+:root {
+  --cs-canvas: hsl(228 20% 96%);
+  --cs-elevated: hsl(0 0% 100%);
+  --cs-ink: hsl(228 16% 10%);
+  --cs-ink-muted: hsl(228 8% 36%);
+  --cs-border: hsl(228 14% 86%);
+  --cs-accent: hsl(245 100% 65%);
+  --cs-accent-hover: hsl(245 100% 58%);
+  --cs-accent-soft: hsl(245 100% 65% / 0.12);
+  --valentus-canvas: var(--cs-canvas);
+  --valentus-elevated: var(--cs-elevated);
+  --valentus-ink: var(--cs-ink);
+  --valentus-ink-muted: var(--cs-ink-muted);
+  --valentus-border: var(--cs-border);
+  --valentus-accent: var(--cs-accent);
+  --valentus-font: "Sora Variable", "Source Sans 3", system-ui, sans-serif;
+  --valentus-font-display: "Sora Variable", "Source Sans 3", system-ui, sans-serif;
+  --vp-link: hsl(245 100% 65%);
+  --vp-link-hover: hsl(245 100% 58%);
+  --vp-focus: hsl(245 100% 65%);
+}
+
+html.dark-theme {
+  --cs-canvas: hsl(228 22% 9%);
+  --cs-elevated: hsl(228 22% 13%);
+  --cs-ink: hsl(228 20% 96%);
+  --cs-ink-muted: hsl(228 12% 72%);
+  --cs-border: hsl(228 14% 22%);
+  --cs-accent: hsl(245 100% 72%);
+  --cs-accent-hover: hsl(245 100% 78%);
+  --cs-accent-soft: hsl(245 100% 72% / 0.16);
+  --vp-link: hsl(245 100% 72%);
+  --vp-link-hover: hsl(245 100% 78%);
+  --vp-focus-dark: hsl(245 100% 72%);
+}

@@ -3,7 +3,7 @@
 :page-usage-context: Timeline on the docs hub
 :page-orig-author: Ryan Johnson
 :page-last-author: Cursor agent on behalf of Ryan Johnson
-:page-last-edited: 2026-11-12
+:page-last-edited: 2026-11-13
 
 ifndef::page-context-active[]
 [.page-context.page-context-lead]
@@ -14,6 +14,10 @@ Latest contributor:: {page-last-author}
 Last updated:: {page-last-edited}
 ****
 endif::[]
+
+== 2026-11-13
+
+The docs theme uses the site mark, Sora, and the same slate and violet as userdata.cloud.
 
 == 2026-11-12
 

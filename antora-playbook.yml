@@ -8,6 +8,7 @@ site:
     Sitemap: https://docs.userdata.cloud/sitemap.xml
   keys:
     header_logo: logo.svg
+    favicon: favicon.svg
     site_home_url: https://userdata.cloud/
     site_home_label: userdata.cloud home
     schema_org_name: userdata.cloud
