@@ -7,9 +7,10 @@
   --cs-ink: hsl(228 16% 10%);
   --cs-ink-muted: hsl(228 8% 36%);
   --cs-border: hsl(228 14% 86%);
-  --cs-accent: hsl(245 100% 65%);
-  --cs-accent-hover: hsl(245 100% 58%);
-  --cs-accent-soft: hsl(245 100% 65% / 0.12);
+  /* 58% clears 4.5:1 on the current-nav chip. The site mark uses 65%. */
+  --cs-accent: hsl(245 100% 58%);
+  --cs-accent-hover: hsl(245 100% 52%);
+  --cs-accent-soft: hsl(245 100% 58% / 0.12);
   --valentus-canvas: var(--cs-canvas);
   --valentus-elevated: var(--cs-elevated);
   --valentus-ink: var(--cs-ink);
@@ -18,9 +19,9 @@
   --valentus-accent: var(--cs-accent);
   --valentus-font: "Sora Variable", "Source Sans 3", system-ui, sans-serif;
   --valentus-font-display: "Sora Variable", "Source Sans 3", system-ui, sans-serif;
-  --vp-link: hsl(245 100% 65%);
-  --vp-link-hover: hsl(245 100% 58%);
-  --vp-focus: hsl(245 100% 65%);
+  --vp-link: hsl(245 100% 58%);
+  --vp-link-hover: hsl(245 100% 52%);
+  --vp-focus: hsl(245 100% 58%);
 }
 
 html.dark-theme {
@@ -29,10 +30,11 @@ html.dark-theme {
   --cs-ink: hsl(228 20% 96%);
   --cs-ink-muted: hsl(228 12% 72%);
   --cs-border: hsl(228 14% 22%);
-  --cs-accent: hsl(245 100% 72%);
-  --cs-accent-hover: hsl(245 100% 78%);
-  --cs-accent-soft: hsl(245 100% 72% / 0.16);
-  --vp-link: hsl(245 100% 72%);
-  --vp-link-hover: hsl(245 100% 78%);
-  --vp-focus-dark: hsl(245 100% 72%);
+  /* 80% clears 4.5:1 for the accent on the elevated surface and the current-nav chip. */
+  --cs-accent: hsl(245 100% 80%);
+  --cs-accent-hover: hsl(245 100% 86%);
+  --cs-accent-soft: hsl(245 100% 80% / 0.16);
+  --vp-link: hsl(245 100% 80%);
+  --vp-link-hover: hsl(245 100% 86%);
+  --vp-focus-dark: hsl(245 100% 80%);
 }

@@ -17,7 +17,7 @@ endif::[]
 
 == 2026-11-13
 
-The docs theme uses the site mark, Sora, and the same slate and violet as userdata.cloud.
+The docs theme uses the site mark, Sora, and the same slate and violet as userdata.cloud. The violet is a step darker in light mode and a step lighter in dark mode so body links and the current nav item clear the contrast check.
 
 == 2026-11-12
 
