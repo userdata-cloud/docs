@@ -20,8 +20,16 @@ antora:
   extensions:
     - require: '@antora-supplemental/facto-stack'
       profile: hub
+      # @antora-supplemental/related-docs. One other site, so the banner links straight to it.
       relatedDocs:
-        sites: none
+        direct_link_when_single: true
+        sites:
+          - name: Team docs
+            url: https://team.docs.userdata.cloud/
+            audience: team
+            requires_login: true
+            login_note: Cloudflare Access for members of the userdata-cloud GitHub organization
+            description: Member-only market plan. Those pages stay on the team site.
       siteNavTree:
         enabled: true
         include:

@@ -1,0 +1,14 @@
+= 2026-11-13
+:hide-page:
+:navtree-parent: changelog.adoc
+:page-audience: Maintainers
+:page-usage-context: Changelog detail
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-11-13
+
+== Team docs link
+
+The public playbook already loads `@antora-supplemental/related-docs` through facto-stack. It was set to `sites: none`, so the hub drew no link.
+
+The collection now has one site, `https://team.docs.userdata.cloud/`, with `direct_link_when_single` so the banner href is that hostname. Sign-in is Cloudflare Access for members of the userdata-cloud GitHub organization. The market plan is not copied onto this hub.
